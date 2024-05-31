@@ -1,6 +1,12 @@
 # Sudoku Game
 
 This is a Sudoku game implemented in C++ using the Qt framework.
+<div align="center">
+
+[<img src="./images/welcome.png" width="300"/>](image.png)
+
+</div>
+
 
 ## Getting Started
 
