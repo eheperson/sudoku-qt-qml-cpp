@@ -89,7 +89,7 @@ Item {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
-                    timer.running = false
+                    // timer.running = false
                     sudokuHeader.settingsClicked()
                     console.log("Settings icon clicked")
                 }
