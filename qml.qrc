@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SudokuBoard.qml</file>
+        <file>SudokuHeader.qml</file>
+        <file>SudokuPanel.qml</file>
+        <file>Sudoku.qml</file>
+        <file>SettingsDialog.qml</file>
+        <file>WelcomePage.qml</file>
+        <file>assets/icons/star.png</file>
+        <file>assets/icons/setting.png</file>
+        <file>assets/resources/sudoku-games.json</file>
+        <file>assets/images/sudoku-logo.png</file>
+        <file>Styles.qml</file>
+    </qresource>
+</RCC>
