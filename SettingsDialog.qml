@@ -60,7 +60,7 @@ Dialog {
                 settingsDialog.close()
                 console.log("Board reset");
                 SudokuModel.handleGameStateChanged("reset");
-                sudokuHeader.resetTimer(); // Call resetTimer function
+                // sudokuHeader.resetTimer(); // Call resetTimer function
             }
         }
 

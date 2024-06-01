@@ -83,8 +83,9 @@ Item {
                         //     parent.color = Theme.cellInvalidColor;
                         } else if (text === '' ){
                             parent.color = Theme.cellBackgroundColor;
-                        } else if (text === 0) {
+                        } else if (text === '0') {
                             parent.color = Theme.cellBackgroundColor;
+                            text = ''
                         } else {
                             parent.color = Theme.cellInvalidColor;
                             sudokuGrid.model.setData(idx, 0, SudokuModel.valueRole);
@@ -184,7 +185,7 @@ Item {
 
         function onGameReset() {
             console.log("Gmae Reset")
-            sudokuGrid.model = 81
+            sudokuGrid.model = null
             sudokuGrid.model = SudokuModel
             focusedIndex = 0
             sudokuGrid.currentIndex = focusedIndex;
